@@ -451,16 +451,6 @@
 #define MACB_SOF_OFFSET		30 /* Must be written to 1 for Clause 22 */
 #define MACB_SOF_SIZE		2
 
-/* Bitfields in USRIO (AVR32) */
-#define MACB_MII_OFFSET				0
-#define MACB_MII_SIZE				1
-#define MACB_EAM_OFFSET				1
-#define MACB_EAM_SIZE				1
-#define MACB_TX_PAUSE_OFFSET			2
-#define MACB_TX_PAUSE_SIZE			1
-#define MACB_TX_PAUSE_ZERO_OFFSET		3
-#define MACB_TX_PAUSE_ZERO_SIZE			1
-
 /* Bitfields in USRIO (AT91) */
 #define MACB_RMII_OFFSET			0
 #define MACB_RMII_SIZE				1
